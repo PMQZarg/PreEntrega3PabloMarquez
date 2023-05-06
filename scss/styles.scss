@@ -1,0 +1,240 @@
+
+@import "footer";
+@import "header";
+@import "transforms"; 
+
+
+
+
+
+* {
+    margin: 0 ;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+/* Aca puse un z-index: 1 ; para que el carrousel y las cards pase por debajo del header*/
+
+ul {
+    list-style: none;
+
+}
+
+.nav-item {color: rgb(89, 130, 151);
+    background-color: rgba(108, 97, 201, 0.552);
+    padding: 5px px;
+    font-family: Helvetica;
+    font-weight: bold;
+
+ 
+}
+.nav-link {
+    color: gainsboro;
+}
+
+
+nav ul {
+    display:flex;
+    gap: 15px;
+}
+.navbar-toggler-icon{
+    background: url('https://api.iconify.design/solar/hamburger-menu-linear.svg?color=blue') no-repeat center center / contain;
+    color: blue;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+iframe {
+    max-width: 100%;
+}
+
+
+.banner {
+    background-image: url(../img/Banner\ PMQZ\ web.png);
+   background-size: cover;
+   background-repeat:no-repeat;
+   background-attachment: fixed;
+    height: 480px;
+    width: 100%;
+} 
+
+main {
+    margin: 50px 0;
+}
+
+
+
+h1 {
+ text-align: center;
+ margin: 20px 0;
+ color: hsl(193, 91%, 50%);
+ font-family:Roboto;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    color: hsla(235, 48%, 41%, 0.804);
+    font-family:Roboto;
+   }
+
+   h4 {
+    text-align: center;
+    margin: 20px 0;
+    color: hsl(307, 35%, 34%);
+    font-family:Roboto;
+   }
+.fondo-parrafos {
+    margin:0 auto;
+    width: 80%;
+    color: rgb(52, 142, 188);
+    font-family:Roboto;
+    
+}
+
+h1,h2:hover {
+    transform: scale(1.2);
+}
+
+.formulario {
+    width: 200%;
+    max-width: 260px;
+    margin:auto;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+  .formulario button {
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(100, 200, 255);
+    cursor: pointer;
+  }
+
+  .iconos-redes{
+    width: max-content;
+    margin:auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+.creditos {
+color: whitesmoke;
+width: max-content;
+    margin:auto;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+div img {
+    justify-content: center;
+   max-block-size: 0%;
+   
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+      margin: 5%;
+  }
+
+
+
+  @media (min-width: 1385px) {
+    #carouselWithControls {
+        margin: 0 auto;
+    
+        width: 70%;
+    }
+    .carousel-item img {
+        height: 500px;
+        width: 400px;
+        }
+    }
+
+
+.card-body {
+    color: rgb(219, 216, 221);
+    background-color: rgb(17, 2, 27);
+    
+}
+
+.card-img-top {
+    max-width: 315;
+    max-height: 560;
+}
+
+.card {
+    justify-content: center;
+  
+   
+}
+
+
+
+.card-image-group {
+    max-width:560;
+    max-height:315;
+}
+
+
+
+
+.cards-groups {
+    margin-block-end: auto;
+
+}
+
+
+
+@media (min-width: 768px) {
+.card-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+}
+
+
+@media (min-width:992px) {
+.card-group {
+    grid-template-columns:repeat(3, 1fr) ;
+
+}
+
+.whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    width: 30px;
+}
+
+}
+
+
+
+
+
+
+

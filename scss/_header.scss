@@ -1,0 +1,15 @@
+header {
+    background-color: rgba(18, 5, 14, 0.812);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: .9;
+    position: sticky;
+    top: 0;
+    z-index: 1 ; 
+}   
+
+header img {
+    width: 100px;
+    align-content: flex-start;
+}
